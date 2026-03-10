@@ -2,17 +2,30 @@ body {
     background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
+	color: #333;
+			
+}
+#dialog {
+	color: #222;
+}
+strong {
+	color: #006600;
+}
+span {
+	color: #cc0000;
 }
 .wrapper {
     width: 720px;
+    align-self: center;
 }
 .header {
     margin: 40px 0px 20px 0px;
+    text-align: center;
 }
 .header p {
-	color: #ffc107 ; 
+	color: #0066cc;
+	font-weight: bold;
 	font-size: 2rem;
-    font-weight: 700;
     text-align: center;
 }
 .entry {
@@ -56,4 +69,4 @@ figcaption {
     top: 100%;
     left: 50%; 
     transform: translate(-50%, -50%); 
-}
+}	
