@@ -1,0 +1,224 @@
+{
+    "meta": {
+        "time": "2026-03-10T03:57:34+00:00",
+        "engineVersion": "2.1.12",
+        "latitude": 12,
+        "longitude": -981,
+        "elevation": 0,
+        "aboveHorizon": true
+    },
+    "data": [
+        {
+            "name": "Sun",
+            "constellation": "Aquarius",
+            "rightAscension": {
+                "negative": false,
+                "hours": 23,
+                "minutes": 21,
+                "seconds": 42.1,
+                "raw": 23.3616815262807
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 4,
+                "arcminutes": 7,
+                "arcseconds": 1.3,
+                "raw": -4.117026137105574
+            },
+            "altitude": 61.0530568965322,
+            "azimuth": 122.40832344558866,
+            "aboveHorizon": true,
+            "magnitude": -26.757269123813945,
+            "nakedEyeObject": true
+        },
+        {
+            "name": "Moon",
+            "constellation": "Scorpius",
+            "rightAscension": {
+                "negative": false,
+                "hours": 16,
+                "minutes": 11,
+                "seconds": 10.3,
+                "raw": 16.186195758208925
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 26,
+                "arcminutes": 36,
+                "arcseconds": 25.4,
+                "raw": -26.607045941816786
+            },
+            "altitude": 0.3824724130592472,
+            "azimuth": 242.65780612082915,
+            "aboveHorizon": true,
+            "phase": 71.25999374615198,
+            "magnitude": -10.500266833736255,
+            "nakedEyeObject": true
+        },
+        {
+            "name": "Mercury",
+            "constellation": "Pisces",
+            "rightAscension": {
+                "negative": false,
+                "hours": 22,
+                "minutes": 56,
+                "seconds": 28.5,
+                "raw": 22.941242195387872
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 3,
+                "arcminutes": 7,
+                "arcseconds": 25.6,
+                "raw": -3.12377074767288
+            },
+            "altitude": 66.66484158559777,
+            "azimuth": 129.29865238188665,
+            "aboveHorizon": true,
+            "magnitude": 4.55653284619133,
+            "nakedEyeObject": true
+        },
+        {
+            "name": "Venus",
+            "constellation": "Pisces",
+            "rightAscension": {
+                "negative": false,
+                "hours": 0,
+                "minutes": 18,
+                "seconds": 48.4,
+                "raw": 0.31343437527296486
+            },
+            "declination": {
+                "negative": false,
+                "degrees": 0,
+                "arcminutes": 45,
+                "arcseconds": 47.8,
+                "raw": 0.7632709007431141
+            },
+            "altitude": 50.230675097740324,
+            "azimuth": 103.5389781728107,
+            "aboveHorizon": true,
+            "magnitude": -3.8592050984142348,
+            "nakedEyeObject": true
+        },
+        {
+            "name": "Mars",
+            "constellation": "Aquarius",
+            "rightAscension": {
+                "negative": false,
+                "hours": 22,
+                "minutes": 32,
+                "seconds": 37.7,
+                "raw": 22.54380349391292
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 10,
+                "arcminutes": 19,
+                "arcseconds": 46.7,
+                "raw": -10.329627815967068
+            },
+            "altitude": 64.72603518199739,
+            "azimuth": 151.5896992861491,
+            "aboveHorizon": true,
+            "magnitude": 1.1755295219056552,
+            "nakedEyeObject": true
+        },
+        {
+            "name": "Saturn",
+            "constellation": "Pisces",
+            "rightAscension": {
+                "negative": false,
+                "hours": 0,
+                "minutes": 13,
+                "seconds": 44.3,
+                "raw": 0.22896055453724357
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 0,
+                "arcminutes": 49,
+                "arcseconds": 2.4,
+                "raw": -0.8173445692515353
+            },
+            "altitude": 50.909003034638445,
+            "azimuth": 106.54467924430286,
+            "aboveHorizon": true,
+            "magnitude": 0.8714816071565874,
+            "nakedEyeObject": true
+        },
+        {
+            "name": "Uranus",
+            "constellation": "Taurus",
+            "rightAscension": {
+                "negative": false,
+                "hours": 3,
+                "minutes": 42,
+                "seconds": 15.7,
+                "raw": 3.704354881434029
+            },
+            "declination": {
+                "negative": false,
+                "degrees": 19,
+                "arcminutes": 34,
+                "arcseconds": 8.1,
+                "raw": 19.568906027497146
+            },
+            "altitude": 4.617571379267176,
+            "azimuth": 70.95136835607347,
+            "aboveHorizon": true,
+            "magnitude": 5.750223396539275,
+            "nakedEyeObject": false
+        },
+        {
+            "name": "Neptune",
+            "constellation": "Pisces",
+            "rightAscension": {
+                "negative": false,
+                "hours": 0,
+                "minutes": 7,
+                "seconds": 7.3,
+                "raw": 0.11868098104530503
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 0,
+                "arcminutes": 38,
+                "arcseconds": 20.2,
+                "raw": -0.6389475610346423
+            },
+            "altitude": 52.52011125433166,
+            "azimuth": 107.21431373392326,
+            "aboveHorizon": true,
+            "magnitude": 7.953784004366043,
+            "nakedEyeObject": false
+        },
+        {
+            "name": "Pluto",
+            "constellation": "Capricornus",
+            "rightAscension": {
+                "negative": false,
+                "hours": 20,
+                "minutes": 32,
+                "seconds": 32.4,
+                "raw": 20.542341061907244
+            },
+            "declination": {
+                "negative": true,
+                "degrees": 22,
+                "arcminutes": 49,
+                "arcseconds": 34.8,
+                "raw": -22.82634393256234
+            },
+            "altitude": 50.91816344136635,
+            "azimuth": 207.0229285984338,
+            "aboveHorizon": true,
+            "magnitude": 14.586051210713277,
+            "nakedEyeObject": false
+        }
+    ],
+    "links": {
+        "self": "https://api.visibleplanets.dev/v3?latitude=12&longitude=-981",
+        "engine": "https://www.npmjs.com/package/astronomy-engine"
+    }
+}
