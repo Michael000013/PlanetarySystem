@@ -1,72 +1,70 @@
+/* Page base */
 body {
-    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
-    font-family: Georgia, "Times New Roman", serif;
-    text-align: center;
-	color: #333;
-			
-}
-#dialog {
-	color: #222;
-}
-strong {
-	color: #006600;
-}
-span {
-	color: #cc0000;
-}
-.wrapper {
-    width: 720px;
-    align-self: center;
-}
-.header {
-    margin: 40px 0px 20px 0px;
-    text-align: center;
-}
-.header p {
-	color: #0066cc;
-	font-weight: bold;
-	font-size: 2rem;
-    text-align: center;
-}
-.entry {
-    width: 220px;
-    float: left;
-    margin: 10px;
-    height: 198px;
-    border-radius: 10px;
-	box-shadow: 0 0 15px rgba(120,140,255,0.4);
-}
-.entry:hover {
-	transform: translateY(-6px) scale(1.03);
-	box-shadow: 0 0 25px rgba(150,180,255,0.8);
-	cursor: pointer;
-}
-figure {
-    display: block;
-    width: 202px;
-    height: 170px;
-    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
-    margin: 0;
-    padding: 9px;
-    text-align: left;
-    border-radius: 8px;
-    position: relative;
-}
-figure img {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
+  background-color: #000;             /* deep black */
+  color: #e6f1ff;                     /* soft light text */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
 }
 
-figcaption {
-    margin-top: 6px;
-	font-weight: bold;
-	color: #0dcaf0;
-	letter-spacing: 1px;
-	background-image: none;
-	text-align: center;
-    position: absolute;
-    top: 100%;
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-}	
+/* Header text */
+header p.lead {
+  font-weight: 600;
+}
+
+/* Planet card with neon-ish blue rim */
+.card.planet-card {
+  background: #000;
+  color: #e6f1ff;
+  border: 2px solid #87CEEB; /* light sky blue */
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(120,140,255,0.35), inset 0 0 10px rgba(135,206,235,0.25);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+/* Hover effect */
+.card.planet-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 26px rgba(150,180,255,0.8), inset 0 0 12px rgba(135,206,235,0.3);
+  cursor: pointer;
+}
+
+/* Centered image inside the card */
+.planet-thumb {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+/* Title and accents */
+.card-title {
+  color: #0dcaf0; /* Bootstrap info color */
+  letter-spacing: 0.5px;
+  margin-top: 0.75rem;
+  font-weight: 700;
+}
+
+/* Collapse panel styling */
+.planet-details {
+  background: #0b1117;
+  border-top: 1px solid rgba(135, 206, 235, 0.4);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.planet-details .label {
+  color: #a7bdd1;
+}
+
+.planet-details .value {
+  color: #ffffff;
+}
+
+/* Buttons */
+.btn-outline-info {
+  border-width: 2px;
+}
+.btn-outline-info:hover {
+  color: #000;
+}
