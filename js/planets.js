@@ -15,7 +15,7 @@
   // Image path builder with fallback name mapping
   function imagePathFor(name) {
     const file = `${name}`.toLowerCase().replace(/\s+/g, "");
-    return `img/planets/${file}.png`;
+    return `.//images/${file}.png`;
   }
 
   // Which entries count as planets for this UI
